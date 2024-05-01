@@ -84,6 +84,11 @@ body li {
     border: 1px blue solid;
 }
 
+.main-content .announc {
+    display: grid;
+    grid-template-rows: 55px;
+}
+
 .main-content .announc .anno-cards {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
